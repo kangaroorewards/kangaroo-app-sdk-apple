@@ -1,10 +1,6 @@
 // swift-tools-version:5.9
 import PackageDescription
 
-// NOTE: This manifest has no releases yet. `url` and `checksum` below are
-// placeholders and MUST be replaced by the automated release process (or
-// manually, as a fallback) the first time a real XCFramework is published.
-// See README.md for how versions here are produced and verified.
 let package = Package(
     name: "KangarooAppSDK",
     platforms: [
@@ -18,13 +14,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "KangarooAppSdkCustomer",
-            url: "https://github.com/kangaroorewards/kangaroo-app-sdk-apple/releases/download/PLACEHOLDER/KangarooAppSdkCustomer.xcframework.zip",
-            checksum: "0000000000000000000000000000000000000000000000000000000000000000"
+            url: "https://github.com/kangaroorewards/kangaroo-app-sdk-apple/releases/download/v1.1.1/KangarooAppSdkCustomer.xcframework.zip",
+            checksum: "3ed874762e20efce238fd93c1bb994e86b5685839a3368bf39857ce1ca646f8f"
         ),
         .binaryTarget(
             name: "KangarooAppSdkBusiness",
-            url: "https://github.com/kangaroorewards/kangaroo-app-sdk-apple/releases/download/PLACEHOLDER/KangarooAppSdkBusiness.xcframework.zip",
-            checksum: "0000000000000000000000000000000000000000000000000000000000000000"
+            url: "https://github.com/kangaroorewards/kangaroo-app-sdk-apple/releases/download/v1.1.1/KangarooAppSdkBusiness.xcframework.zip",
+            checksum: "920f1850e49facf8c7b1edb28908e435ca9763ce6df9e5a7f2ca7a966f9b6f5e"
         ),
     ]
 )
