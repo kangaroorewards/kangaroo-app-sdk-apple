@@ -9,18 +9,13 @@ let package = Package(
     ],
     products: [
         .library(name: "KangarooAppSdkCustomer", targets: ["KangarooAppSdkCustomer"]),
-        .library(name: "KangarooAppSdkBusiness", targets: ["KangarooAppSdkBusiness"]),
+
     ],
     targets: [
         .binaryTarget(
             name: "KangarooAppSdkCustomer",
-            url: "https://github.com/kangaroorewards/kangaroo-app-sdk-apple/releases/download/v1.1.1/KangarooAppSdkCustomer.xcframework.zip",
-            checksum: "3ed874762e20efce238fd93c1bb994e86b5685839a3368bf39857ce1ca646f8f"
+            url: "https://github.com/kangaroorewards/kangaroo-app-sdk-apple/releases/download/v1.1.3/KangarooAppSdkCustomer.xcframework.zip",
+            checksum: "89a1948ddec6048ef43bca2042ebc7e12bf7a98732ea1618785a873c1f3760e4"
         ),
-        .binaryTarget(
-            name: "KangarooAppSdkBusiness",
-            url: "https://github.com/kangaroorewards/kangaroo-app-sdk-apple/releases/download/v1.1.1/KangarooAppSdkBusiness.xcframework.zip",
-            checksum: "920f1850e49facf8c7b1edb28908e435ca9763ce6df9e5a7f2ca7a966f9b6f5e"
-        ),
-    ]
+]
 )
